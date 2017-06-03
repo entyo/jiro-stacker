@@ -7,7 +7,9 @@ window.onload = () => {
         MouseConstraint = Matter.MouseConstraint,
         Mouse = Matter.Mouse,
         World = Matter.World,
-        Bodies = Matter.Bodies;
+        Bodies = Matter.Bodies,
+        Events = Matter.Events;
+
 
     // create engine
     let engine = Engine.create(),
@@ -45,9 +47,26 @@ window.onload = () => {
         Bodies.rectangle(400, 600, 800, 1, options)
     ]);
 
+
+    addYasai =  function(mX, mY) {
+      let yasai = Composites.stack(mX, mY, 1, 1, 0, 0, function(x, y) {
+        return Bodies.rectangle(x, y, 30, 30, {
+          frictionAir: 0,
+          friction: 0.7,
+          render: {
+            sprite: {
+              texture: './img/yasai.png'
+            },
+          }
+        })
+      });
+      World.add(world, yasai);
+    }
+
+
     let jiro = Composites.stack(230, 525, 1, 1, 0, 0, function(x, y) {
       return Bodies.rectangle(x, y, 340, 140, {
-        frictionAir: 0.25,
+        frictionAir: 0.3,
         friction: 0.7,
         render: {
           sprite: {
@@ -58,6 +77,7 @@ window.onload = () => {
     });
 
     World.add(world, jiro);
+
 
     // add mouse control
     let mouse = Mouse.create(render.canvas),
@@ -80,6 +100,10 @@ window.onload = () => {
     Render.lookAt(render, {
         min: { x: 0, y: 0 },
         max: { x: 800, y: 600 }
+    });
+
+    Events.on(mouseConstraint, 'mousedown', function(event) {
+      addYasai(event.mouse.mousedownPosition.x, event.mouse.mousedownPosition.y);
     });
 
     // context for MatterTools.Demo
