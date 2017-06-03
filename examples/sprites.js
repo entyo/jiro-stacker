@@ -61,7 +61,7 @@ window.onload = () => {
             return Bodies.circle(x, y, 46, {
                 density: 0.0005,
                 frictionAir: 0.06,
-                restitution: 0.3,
+                restitution: 0.9,
                 friction: 0.01,
                 render: {
                     sprite: {
