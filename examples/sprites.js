@@ -33,18 +33,16 @@ window.onload = () => {
     Runner.run(runner, engine);
 
     // add bodies
-    let offset = 10,
-        options = { 
-            isStatic: true
-        };
+    const offset = 10;
+    const options = { 
+        isStatic: true
+    };
 
     world.bodies = [];
 
     // these static walls will not be rendered in this sprites example, see options
     World.add(world, [
-        Bodies.rectangle(400, 600, 800, 50, options),
-        Bodies.rectangle(800 + offset, 300, 50.5, 600.5 + 2 * offset, options),
-        Bodies.rectangle(-offset, 300, 50.5, 600.5 + 2 * offset, options)
+        Bodies.rectangle(400, 600, 800, 1, options)
     ]);
 
     let jiro = Composites.stack(230, 525, 1, 1, 0, 0, function(x, y) {
