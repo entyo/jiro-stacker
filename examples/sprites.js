@@ -48,32 +48,17 @@ window.onload = () => {
         Bodies.rectangle(-offset, 300, 50.5, 600.5 + 2 * offset, options)
     ]);
 
-    let stack = Composites.stack(20, 20, 10, 4, 0, 0, function(x, y) {
-        if (Common.random() > 0.35) {
-            return Bodies.rectangle(x, y, 32, 20, {
-                render: {
-                    strokeStyle: '#ffffff',
-                    sprite: {
-                        texture: './img/ninniku.png'
-                    }
-                }
-            });
-        } else {
-            return Bodies.circle(x, y, 46, {
-                density: 0.0005,
-                frictionAir: 0.06,
-                restitution: 0.3,
-                friction: 0.01,
-                render: {
-                    sprite: {
-                        texture: './img/yasai.png'
-                    }
-                }
-            });
+    let jiro = Composites.stack(230, 530, 1, 1, 0, 0, function(x, y) {
+      return Bodies.rectangle(x, y, 340, 140, {
+        render: {
+          sprite: {
+            texture: './img/don.png'
+          },
         }
+      })
     });
 
-    World.add(world, stack);
+    World.add(world, jiro);
 
     // add mouse control
     let mouse = Mouse.create(render.canvas),
