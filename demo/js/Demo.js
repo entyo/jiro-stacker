@@ -17,7 +17,7 @@
             source: true,
             inspector: true,
             tools: true,
-            fullscreen: true,
+            fullscreen: false,
             exampleSelect: true
         },
         tools: {
