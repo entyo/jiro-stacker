@@ -50,7 +50,7 @@ window.onload = () => {
 
     let stack = Composites.stack(20, 20, 10, 4, 0, 0, function(x, y) {
         if (Common.random() > 0.35) {
-            return Bodies.rectangle(x, y, 64, 64, {
+            return Bodies.rectangle(x, y, 32, 20, {
                 render: {
                     strokeStyle: '#ffffff',
                     sprite: {
