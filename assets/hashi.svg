@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="380px" viewBox="0 0 112 380" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>hashi</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8.91177699" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-2" x="40.911777" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-3" x="8.91177699" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-4" x="48.911777" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-5" x="26" y="0" width="14" height="256"></rect>
+        <rect id="path-6" x="76" y="0" width="14" height="256"></rect>
+        <rect id="path-7" x="68.911777" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-8" x="88.911777" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-9" x="108.911777" y="0.176493749" width="14" height="256"></rect>
+        <rect id="path-10" x="0" y="154" width="112" height="226"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ジロスタック" transform="translate(-1328.000000, -512.000000)">
+            <g id="hashi" transform="translate(1328.000000, 512.000000)">
+                <g id="Rectangle-6" transform="translate(15.911777, 128.176494) scale(-1, 1) rotate(-4.000000) translate(-15.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#000000" stroke-width="1" x="9.41177699" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6" transform="translate(47.911777, 128.176494) scale(-1, 1) rotate(-4.000000) translate(-47.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#000000" stroke-width="1" x="41.411777" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <rect id="Rectangle-6" fill="#966D44" transform="translate(71.427611, 127.723077) scale(-1, 1) rotate(-4.000000) translate(-71.427611, -127.723077) " x="70.9276107" y="-0.27692333" width="1" height="256"></rect>
+                <g id="Rectangle-6" transform="translate(15.911777, 128.176494) rotate(-4.000000) translate(-15.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#000000" stroke-width="1" x="9.41177699" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6" transform="translate(55.911777, 128.176494) rotate(-4.000000) translate(-55.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#000000" stroke-width="1" x="49.411777" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#000000" stroke-width="1" x="26.5" y="0.5" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#000000" stroke-width="1" x="76.5" y="0.5" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6" transform="translate(75.911777, 128.176494) rotate(-4.000000) translate(-75.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#000000" stroke-width="1" x="69.411777" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6" transform="translate(95.911777, 128.176494) rotate(-4.000000) translate(-95.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#000000" stroke-width="1" x="89.411777" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-6" transform="translate(115.911777, 128.176494) rotate(-4.000000) translate(-115.911777, -128.176494) ">
+                    <use fill="#966D44" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <rect stroke="#000000" stroke-width="1" x="109.411777" y="0.676493749" width="13" height="255"></rect>
+                </g>
+                <g id="Rectangle-5">
+                    <use fill="#4A4A4A" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    <rect stroke="#000000" stroke-width="1" x="0.5" y="154.5" width="111" height="225"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

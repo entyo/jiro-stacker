@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="674px" height="287px" viewBox="0 0 674 287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>don</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="225" y="255" width="223" height="55"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ジロスタック" transform="translate(-571.000000, -667.000000)">
+            <g id="don" transform="translate(572.000000, 644.000000)">
+                <g id="Rectangle-4">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#4A4A4A" stroke-width="3" x="226.5" y="256.5" width="220" height="52"></rect>
+                </g>
+                <path d="M335.5,276 C511.402693,276 615.219879,185.890504 654,77 C671.198442,28.7085813 736.698335,25.3635224 414.144569,25.1318163 C390.139036,25.1145719 363.984138,25.1145719 335.5,25.1145719 C-75.7153117,25.1145719 -0.0182475536,25.1145719 17,77 C52.7762183,186.074944 159.597307,276 335.5,276 Z" id="Oval" stroke="#4A4A4A" stroke-width="3" fill="#D8D8D8"></path>
+            </g>
+        </g>
+    </g>
+</svg>
