@@ -20,7 +20,7 @@ window.onload = () => {
         options: {
             width: Math.min(document.documentElement.clientWidth, 1920),
             height: Math.min(document.documentElement.clientHeight, 1080),
-            background: '#0f0f13',
+            background: './img/back.png',
             showAngleIndicator: false,
             wireframes: false
         }
@@ -42,8 +42,7 @@ window.onload = () => {
 
     // these static walls will not be rendered in this sprites example, see options
     World.add(world, [
-        Bodies.rectangle(400, -offset, 800.5 + 2 * offset, 50.5, options),
-        Bodies.rectangle(400, 600 + offset, 800.5 + 2 * offset, 50.5, options),
+        Bodies.rectangle(400, 600, 800, 50, options),
         Bodies.rectangle(800 + offset, 300, 50.5, 600.5 + 2 * offset, options),
         Bodies.rectangle(-offset, 300, 50.5, 600.5 + 2 * offset, options)
     ]);
