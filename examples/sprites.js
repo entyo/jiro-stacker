@@ -48,8 +48,10 @@ window.onload = () => {
         Bodies.rectangle(-offset, 300, 50.5, 600.5 + 2 * offset, options)
     ]);
 
-    let jiro = Composites.stack(230, 530, 1, 1, 0, 0, function(x, y) {
+    let jiro = Composites.stack(230, 538, 1, 1, 0, 0, function(x, y) {
       return Bodies.rectangle(x, y, 340, 140, {
+        frictionAir: 0.25,
+        friction: 0.7,
         render: {
           sprite: {
             texture: './img/don.png'
