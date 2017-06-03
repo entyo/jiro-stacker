@@ -44,7 +44,6 @@ window.onload = () => {
     World.add(world, [
         Bodies.rectangle(400, 600, 800, 1, options)
     ]);
-
     let jiro = Composites.stack(230, 525, 1, 1, 0, 0, function(x, y) {
       return Bodies.rectangle(x, y, 340, 140, {
         frictionAir: 0.25,
