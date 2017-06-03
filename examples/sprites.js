@@ -47,7 +47,6 @@ window.onload = () => {
         Bodies.rectangle(400, 600, 800, 1, options)
     ]);
 
-
     addYasai =  function(mX, mY) {
       let yasai = Composites.stack(mX, mY, 1, 1, 0, 0, function(x, y) {
         return Bodies.rectangle(x, y, 30, 30, {
@@ -62,7 +61,6 @@ window.onload = () => {
       });
       World.add(world, yasai);
     }
-
 
     let jiro = Composites.stack(230, 525, 1, 1, 0, 0, function(x, y) {
       return Bodies.rectangle(x, y, 340, 140, {
